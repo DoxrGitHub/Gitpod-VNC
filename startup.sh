@@ -5,7 +5,7 @@ if [ -f "$FILE" ]; then
 else
     touch aliases.sh
     chmod +x aliases.sh
-    curl https://gitlab.com/nstoc6696/Gitpod-VNC/-/raw/master/aliases.sh > aliases.sh
+    curl https://gitlab.com/DoxrGitHub/Gitpod-VNC/-/raw/master/aliases.sh > aliases.sh
     rm README.md
 fi
 if [ -f "$FILE1" ]; then
